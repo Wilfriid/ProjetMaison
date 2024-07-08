@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon projet maison</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Se loger</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="#" href="./accueil.html">Propriétaire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./locataire.html">Locataire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./comment_ça_marche.html" style="color: blue;">Comment ça marche ?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Avantages</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="./tarif.html" tabindex="-1" aria-disabled="true">Tarif</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-success" href="#">Se connecter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary" href="#">S'inscrire</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- comment_ça_marche -->
+
+<div class="section_comment1">
+    <div class="section_comment1_container">
+        <div class="comment1_mini1">
+            <h6>Comment ça marche ?</h6>
+        </div>
+        <div class="comment1_mini2">
+            <h2>Quatres étapes pour louer vos biens.</h2>
+        </div>
+        <div class="comment1_mini3">
+            <div class="comment1_mini3_bloc">
+                  <div class="comment1_mini3_bloc1">
+                     <div class="minic1"><h2>1</h2></div>
+                     <div class="minic2"><h2>Inscription</h2></div>
+                     <div class="minic3"><h6>Inscrivez-vous et vérifiez votre identité
+                         ou celle de votre entreprise pour recevoir des paiements.</h6></div>
+                  </div>
+                  <div class="comment1_mini3_bloc1">
+                        
+                     <div class="minic1"><h2>2</h2></div>
+                     <div class="minic2"><h2>Paramétrage</h2></div>
+                     <div class="minic3"><h6>Ajoutez un ou des bien(s) immobilier(s) et paramétrez votre contrat intelligent et état des lieux.
+
+                     </h6></div>
+                  </div>
+                  <div class="comment1_mini3_bloc1">
+                       
+                     <div class="minic1"><h2>3</h2></div>
+                     <div class="minic2"><h2>Invitation</h2></div>
+                     <div class="minic3"><h6>Invitez vos locataires, signez vos documents électroniquement et faites l'état des lieux de votre bien depuis l'application.
+
+                     </h6></div>
+                  </div>
+                  <div class="comment1_mini3_bloc1">
+                    
+                    <div class="minic1"><h2>4</h2></div>
+                    <div class="minic2"><h2>Gérer</h2></div>
+                    <div class="minic3"><h6>Gérez sereinement vos biens et vos locataires en pilote automatique, faites-vous payer depuis l'application.</h6></div>
+                  </div>
+            </div>
+        </div>
+    </div>
+      
+       <div class="unique_comment1">
+            <a href="#" class="bouton-transparent_com">Devenir client</a>
+              <!-- cache bouton -->
+            <!-- <button id="openPopup">Combien de temps cela prendra ?</button> -->
+            <a href="#" id="openPopup">Combien de temps cela prendra ?</a>
+
+          <div id="popup" class="popup">
+              <span class="close" >&times;</span>
+              <p>Cette action prendra environ 20 minutes.</p>
+          </div>
+       </div>
+    
+
+</div>
+
+<div class="section2_comment2"><h2>Un moyen simple de digitaliser la location qui fonctionne aussi bien pour le bailleur que le locataire.</h2></div>
+<!-- carrousel -->
+
+<div class="carro">
+<div class="carrousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="couple.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="MAISON.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="hommemec.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+</div>
+
+<!-- SECTION_3 -->
+<div class="section5"></div>
+
+<!-- SECTION_4 -->
+    <div class="comment4_section4">
+        <div class="comment4_section4_block">
+            <div class="circle">
+                <i class="fa-sharp fa-solid fa-house-user"></i>
+            </div>
+            <h3>Creer un bien</h3>
+            <p>Créez la fiche détaillée de votre bien (appartement, maison). Adresse, surface, équipements etc.</p>   
+        </div>
+        <div class="comment4_section4_block">
+            <div class="circle">
+                <i class="fa-sharp fa-solid fa-user"></i>
+            </div>
+            <h3>Créer un locataire</h3>
+            <p>Créez la fiche détaillé de votre Locataire. Nom, prénoms, adresse, téléphone</p>
+        </div>
+        <div class="comment4_section4_block">
+            <div class="circle">
+                <i class="fa-sharp fa-solid fa-key"></i>
+            </div>
+            <h3>Creer une location</h3>
+            <p>Liez votre Local et votre Locataire dans une Location. Un contrat de bail lui sera envoyé.</p>
+        </div>
+        <div class="comment4_section4_block"><div class="circle">
+            <i class="fa-sharp fa-solid fa-sack-dollar"></i>
+        </div>
+        <h3>Encaissez votre loyer</h3>
+        <p>Vos locataires peuvent payer votre loyer en ligne par nos différents moyens de paiement intégrés</p></div>
+    </div>
+<!-- SECTION_5 -->
+        <div class="comment_section5">
+            <div class="comment_section5_mini1">
+                <div class="comment_section5_mini1_one">
+                    <h2>Pourquoi les <span style="color: blue;">locataires</span> nous aiment ?</h2>
+                </div>
+                <div class="comment_section5_mini1_two"></div>
+            </div>
+                 <div class="comment_section5_mini1">
+                    <div class="comment_partie_droite">
+                        <div class="comment_partie_droite_one">
+                            <i class="fa-sharp fa-solid fa-mobile-button"></i>
+                            <h2>Simple a payer</h2>
+                            <p>Oublier le chèque ou les identifiants bancaires papier à rentrer, tout est électronique.
+                            </p>
+                        </div>
+                         
+                    </div>
+                    <div class="comment_partie_droite">
+                         <div class="comment_partie_droite_one">
+                            <i class="fa-sharp fa-solid fa-thumbs-up"></i>
+                            <h2>Serénité</h2>
+                            <p>Pas besoin de demander des quittances, ou de mettre le contrat et état des lieux dans un dossier papier.
+                            </p>
+                         </div>
+                    </div>
+                    <div class="comment_partie_droite">
+                        <div class="comment_partie_droite_one">
+                            <i class="fa-sharp fa-solid fa-handshake"></i>
+                            <h2>Partage du montants</h2>
+                            <p>Il est simple de diviser les parts de loyer pour le bailleur avec Se loger avec les autres locataires.
+                            </p>
+                        </div>
+                    </div>
+                 </div>
+        </div>
+    <!-- Partie bailleurs -->
+
+    <div class="comment_section5">
+        <div class="comment_section5_mini1">
+            <div class="comment_section5_mini1_one">
+                <h2>Pourquoi les <span style="color: blue;">bailleurs</span> nous aiment ?</h2>
+            </div>
+            <div class="comment_section5_mini1_two"></div>
+        </div>
+             <div class="comment_section5_mini1">
+                <div class="comment_partie_droite">
+                    <div class="comment_partie_droite_one">
+                        <i class="fa-sharp fa-solid fa-clock"></i>
+                        <h2>Gain de temps</h2>
+                        <p>Louer ses biens digitalement fait gagner un temps non-négligeable.
+                        </p>
+                    </div>
+                     
+                </div>
+                <div class="comment_partie_droite">
+                     <div class="comment_partie_droite_one">
+                        <i class="fa-sharp fa-solid fa-tag"></i>
+                        <h2>Prix accessible</h2>
+                        <p>Se loger est accessible, peu importe le montant du loyer, le prix est fixe.
+                        </p>
+                     </div>
+                </div>
+                <div class="comment_partie_droite">
+                    <div class="comment_partie_droite_one">
+                        <i class="fa-sharp fa-solid fa-thumbs-up"></i>
+                        <h2>Locataire heureux</h2>
+                        <p>Les locataires sont heureux d'avoir tous leurs contrats et loyers sur la même application.
+                        </p>
+                    </div>
+                </div>
+             </div>
+    </div>
+<!--  -->
+       <div class="section6_comment6"><h2>Envie d'en savoir plus ?</h2></div>
+        <!--section7_comment7  -->
+       <!-- <div class="section7_comment7">     
+             <div id="conteneur1">
+                  <h4> Je suis proprietaire puis-je utiliser Se loger ?</h4>
+                  <button id="bouton-plus-moins1" class="plusmoins" onclick="changerTexte1()">+</button>
+                  <p id="texte-cache1" style="display: none;">Oui.</p>
+             </div>
+        </div> -->
+        <!-- <div class="section7_comment7">
+        
+            <div id="conteneur2">
+                 <h4> Je gère des biens avec une entreprise (SCI, SARL...), puis-je utiliser Se loger ?
+
+                 </h4>
+                 <button id="bouton-plus-moins2" class="plusmoins" onclick="changerTexte2()">+</button>
+                 <p id="texte-cache2" style="display: none;">Oui.</p>
+            </div>
+        </div> -->
+
+   <!-- accordeon -->
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Je suis propriétaire, puis-je utiliser Se loger ?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+             
+          <strong> Oui.</strong> 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Je gère des biens avec une entreprise (SCI, SARL...), puis-je utiliser Se loger ?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <strong> Oui.</strong> 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Je suis agent immobilier dans une agence, puis-je utiliser Se loger ?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <strong> Oui.</strong> 
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Puis-je générer un contrat de bail ?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Oui, vous pouvez générer un contrat de bail. Leasy est une plateforme avec une expérience complète,
+             c'est à dire que celle-ci ne s'arrête pas à la simple génération, 
+             elle intègre le fait de pouvoir signer le contrat de bail avec vos locataires, 
+             et de louer votre logement sans quitter une seule fois la plateforme, 
+            de l'état des lieux d'entrée, aux paiement des loyers, 
+            jusqu'à la sortie du locataire.
+          </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Puis-je faire mon état des lieux ?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Oui, vous pouvez préparer votre état des lieux en avance et son inventaire, 
+            puis le lancer en direct avec vos locataires. L'état des lieux est simultané,
+             c'est à dire que les locataires qui utilisent l'application comme vous pendant l'état des lieux peuvent voir les changements,
+             photos, et commentaires que vous mettez en direct depuis leur application.
+          </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Où sont les paiements de mes loyers ?
+           </button>
+        </h2>
+         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Se loger transfère automatiquement les paiements de loyer ainsi que le dépôt de garantie sur votre compte bancaire à chaque paiement du locataire.
+           </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            Est-ce payant ?
+           </button>
+        </h2>
+         <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Leasy est une plateforme avec inscription gratuite.
+             De ce fait, vous ne payez un bien que lorsque vous souhaitez inviter un locataire.
+              Ce qui vous laisse le temps de bien prendre en main la plateforme, 
+              préparer vos contrats et états des lieux, en toute tranquillité.
+               Pour connaître les tarifs, nous vous invitons à cliquer ici.
+
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEight">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            Est-ce gratuit pour les locataires ?
+           </button>
+        </h2>
+         <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Oui, Se loger est gratuit pour les locataires, et le restera.
+           </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingNine">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseEight">
+            Est-ce que c’est sécurisé ?
+           </button>
+        </h2>
+         <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Oui, Se loger est totalement sécurisé et bénéficie des plus grands standards de sécurité au monde, 
+                grâce à des hébergements de données sur des serveurs  chez Google.
+           </div>
+        </div>
+    </div>
+<!--  -->
+        <!--  -->
+      <div class="section5"></div>
+      <div class="section_partie9">
+        <div class="section_partie9_img">
+           <h1>Gagnez du temps et du controle</h1>
+           <p>Se loger est l'application idéale pour
+            votre gestion locative et vos locataires.
+            Qu'attendez-vous ?</p>
+            <a href="#" class="bouton-transparent">Devenir client</a>
+    
+        </div>
+    </div>
+          <div class="icone-message">
+            <a href="https://www.google.com"><i class="fas fa-envelope"></i></a>    
+          </div>
+           <!-- footer -->
+<div class="section5"></div>
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Liens utiles</h3>
+          <ul>
+            <li><a href="#">A propos de nous</a></li>
+            <li><a href="#">Acceuil</a></li>
+            <li><a href="#">Se connecter</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Suivez-nous</h3>
+          <ul class="social-media">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Contactez-nous</h3>
+          <p>
+            <i class="fas fa-phone"></i> +225 07 79 18 52 58
+            <br>
+            <i class="fas fa-envelope"></i> Se loger.com
+          </p>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">
+        &copy; 2024 - Se loger.com - Tous droits réservés.
+      </p>
+    </div>
+  </footer> 
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="main.js" defer></script>
+        
+
+
